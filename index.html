@@ -4,27 +4,46 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
+    <link rel="stylesheet" href="CSS/styles.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
+      <a href=".index.html" class="logo">
+        <span class="accent">Web</span>Studio
+      </a>
       <nav>
-        <a href="index.html">WebStudio</a>
-        <ul>
-          <li><a href="index.html">Студия</a></li>
-          <li><a href="index.html">Портфолио</a></li>
-          <li><a href="index.html">Контакты</a></li>
+        <ul class="site-nav list">
+          <li><a href="index.html" class="header-link active">Студия</a></li>
+          <li><a href="index.html" class="header-link">Портфолио</a></li>
+          <li><a href="index.html" class="header-link">Контакты</a></li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <ul class="site-contacts list">
+        <li>
+          <a href="mailto:info@devstudio.com" class="header-link"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a href="tel:+380961111111" class="header-link">+38 096 111 11 11</a>
+        </li>
       </ul>
     </header>
     <main>
       <section>
         <h1>Эффективные решения для вашего бизнеса</h1>
-        <button type="button">Заказать услугу</button>
+        <button type="button" class="main-btn cursor">
+          <span class="type-cursor">Заказать услугу</span>
+        </button>
       </section>
       <section>
         <h2>Почему мы</h2>
@@ -63,7 +82,7 @@
         <h2>Чем мы занимаемся</h2>
         <ul>
           <li>
-            <img src="images/img.jpg" alt="pic" width="370" height="294" />
+            <img src="images/img.jpg" alt="pic1" width="370" height="294" />
           </li>
           <li>
             <img src="images/img-2.jpg" alt="pic2" width="370" height="294" />

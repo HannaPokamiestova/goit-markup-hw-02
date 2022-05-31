@@ -1,0 +1,72 @@
+/* Цвет основного текста /чёрный/ #212121 */
+/* Цвет вторичного текста /серый/ #757575 */
+/* Цвет акцента /синий/ #2196F3 */
+/* Цвет текста /белый/ #FFFFFF */
+/* Цвет футера rgba(255, 255, 255, 0.6 */
+/* Цвет основного фона /белый/ #FFFFFF */
+/* Вторичный цвет фона /приглушенно серый/ наша команда #F5F4FA */
+/* Цвет фона заголовка и футера /серый/ #2F303A */
+
+:root {
+  --logo-color: #000000;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --secondary-background: #f5f4fa;
+  --white-color: #fff;
+  --primary-text-color: #212121;
+  --color-footer: rgba(255, 255, 255, 0.6);
+  --background-footer: #2f303a;
+}
+
+body {
+  background: #ffffff;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.accent {
+  color: var(--accent-color);
+}
+
+.list {
+  list-style: none;
+}
+
+/* ------------- HEADER ---------- */
+
+.logo {
+  color: var(--logo-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+/* site-nav */
+
+.header-link {
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.header-link:hover,
+.header-link:focus,
+.site-contacts .header-link:hover,
+.site-contacts .header-link:focus {
+  color: var(--accent-color);
+}
+
+.header-link.active {
+  color: var(--accent-color);
+}
+
+.site-contacts .header-link {
+  color: var(--secondary-text-color);
+}
