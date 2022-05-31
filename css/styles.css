@@ -32,6 +32,18 @@ body {
   list-style: none;
 }
 
+.button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  border: none;
+}
+
 /* ------------- HEADER ---------- */
 
 .logo {
@@ -69,4 +81,20 @@ body {
 
 .site-contacts .header-link {
   color: var(--secondary-text-color);
+}
+
+/* ------------- HERO ---------- */
+.hero {
+  background-color: var(--background-footer);
+  text-align: center;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-color);
 }
