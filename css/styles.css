@@ -226,3 +226,11 @@ body {
 .site-contacts .header-link {
   color: var(--secondary-text-color);
 }
+
+.button-help {
+    font-style: medium;
+    font-size: 16px;
+    Line height: 26px;
+    Align: Center;
+    Vertical align: Top;
+    Letter spacing: 3%
