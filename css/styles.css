@@ -227,10 +227,29 @@ body {
   color: var(--secondary-text-color);
 }
 
+.pointer {
+  cursor: pointer;
+}
+
 .button-help {
-    font-style: medium;
-    font-size: 16px;
-    Line height: 26px;
-    Align: Center;
-    Vertical align: Top;
-    Letter spacing: 3%
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  vertical-align: top;
+  letter-spacing: 0, 03em;
+}
+
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
